@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
 }
+
  .navbar{
     display: flex;
     align-items: center;
@@ -13,10 +14,46 @@ a{
     text-decoration: none;
     color: black;
 }
-li{
-    list-style: none;
-}
+
 .logo{
     width: 130px;
     height: 90px;
+}
+.nav{
+     display: flex;
+gap: 8px;
+    align-items: center;
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    gap: 13px;
+}
+.text{
+  text-align: center;
+}
+
+#btn{
+    border: 1px solid black;
+    background-color: rgb(241, 178, 178);
+  
+    color: white;
+    border-radius: 5px;
+}
+.text2{
+    text-align: center;
+}
+
+.btn2{
+    padding: 15px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 9px;
+}
+
+.im1{
+    display: flex;
+    justify-content: center;
 }
