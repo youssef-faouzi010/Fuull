@@ -80,18 +80,21 @@ margin: 5px;
 }
 
 .resaux{
-    display: flex;
-    justify-content: space-between;
+ display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-around; 
 }
 
 .comt{
     width: 90%;
-    height: 150px;
+
     border: 1px solid black;
     background-color: darksalmon;
     border-radius: 9px 0 9px 9px;
-    /* margin-left: 5px; */
     padding-left: 5px;
+    height: 150px;
+    padding: 20px;
 }
 
 .comt img{
@@ -105,7 +108,78 @@ gap: 8px;
     align-items: center;
 }
 .bean{
-
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
+.pic2{
+  position: relative;
+  top: 30px;
+  left: 50px;
+  height: 300px;
+}
+
+
+.comt p{
+    padding: 10px;
+}
+/* content ------------------------------------------------ */
+
     
+.content2{
+      display: flex;
+  flex-direction: column;
+}
+.btn4{
+padding: 10px;
+background-color: rgb(2, 198, 61);
+border: 1px solid black;
+border-radius: 9px;
+margin: 5px;
+}
+
+.resaux1{
+ display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.comt1{
+    width: 90%;
+
+    border: 1px solid black;
+    background-color: rgb(2, 198, 61);
+    border-radius: 9px 0 9px 9px;
+    padding-left: 5px;
+    height: 150px;
+    padding: 20px;
+}
+
+.comt1 img{
+height: 35px;
+width: 35px;
+border-radius: 80px;
+}
+.b2{
+     display: flex;
+gap: 8px;
+    align-items: center;
+}
+.bean2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.pic3{
+  position: relative;
+  top: 30px;
+  left: 50px;
+  height: 300px;
+}
+
+.comt1 p{
+    padding: 10px;
+}
