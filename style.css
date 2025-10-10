@@ -39,6 +39,7 @@ height: 90px;
     background-color: black;
     border-radius: 3px;
     width: 170px;
+    border: none;
     height: 40px;
 
 }
@@ -52,9 +53,10 @@ height: 90px;
 }
 .btn2{
     color: aliceblue;
-    background-color: rgb(6, 151, 6);
+    background-color: rgb(72, 133, 72);
     width: 200px;
     height: 50px;
+    border: none;
     border-radius: 10px;
 }
 .img1{
@@ -343,11 +345,13 @@ border-radius: 50px;
 
 /* foutres */
 
-.fotr{
-    display: flex;
-    justify-content: center;
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
     background-color: black;
 }
+
 .logo1{
     position: relative;
     right: 100px;
@@ -391,33 +395,7 @@ footer li{
 
 
 
- .search-container {
-            margin-top: 1.5rem;
-            display: flex;
-        }
-        
-        .search-container input {
-            flex: 1;
-            padding: 0.8rem;
-            border: none;
-            border-radius: 4px 0 0 4px;
-            outline: none;
-        }
-        
-        .search-container button {
-            background-color: #3498db;
-            color: white;
-            border: none;
-            padding: 0 1.2rem;
-            border-radius: 0 4px 4px 0;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        
-        .search-container button:hover {
-            background-color: #2980b9;
-        }
-        
+
 
 
 
