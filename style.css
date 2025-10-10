@@ -353,22 +353,15 @@ footer{
 }
 
 .logo1{
-    position: relative;
-    right: 100px;
-    width: 110px;
-    top: 20px;
     height: 50px;
     background-color: aliceblue;
-    border-radius: 20px;
+  
 }
 .list{
      display: flex;
      color: rgb(209, 211, 213);
   gap: 10px;
-  gap: 10px 20px; /* row-gap column gap */
-  row-gap: 10px;
-  column-gap: 20px;
-  
+padding-left: 150px;
 }
 .list ul{
     list-style: none;
@@ -386,6 +379,10 @@ footer li{
     color: white;
 }
 
+.foter1{
+    display: flex;
+ gap: 100px;
+}
 
 
 
@@ -398,8 +395,113 @@ footer li{
 
 
 
+.fotr{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo1{
+    position: relative;
+    right: 100px;
+    width: 100px;
+    top: 20px;
+    height: 30px;
+    background:none;
+}
+.list{
+     display: flex;
+     
+  gap: 10px;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 20px;
+  
+} 
+.list li{
+    list-style: none;
+    font-weight: normal;
+}
+.list li a{
+    color: rgb(172, 207, 242);
+    text-decoration: none;
+     font-family: "Poppins", sans-serif;
+  font-size: 16px;
 
+}
+.list h4{
+    color: rgb(247, 170, 170);
+}
+.social{
+   position: relative;
+   top: 1px;
+   left: 1150px;
+   color: #ffffff;
+}
+.fot{
+    background-color: black;
+}
+.pla{
+    display: flex;
+    justify-content: center;
+    gap: 550px;
+    position: relative;
+    left: 140px;
+    padding: 20px;
+}
+.play{
+    display: flex;
+    color: #ffffff;
+}
+.appl{
+    width: 100px;
+    height: 30px;
+    border: solid 1px rgb(165, 162, 162);
+    border-radius: 5px;
+}
+.playstor{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.play{
+    width: 100px;
+    height: 30px;
+}
+.search{
+    border: solid 2px gray;
+background-color: black;
+border-radius: 5px;
+color: #ffffff;
+}
+.global{
+    color: #ffffff;
+    
+}
+.glo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px ;
+}
+.glo ul{
+    display: flex;
+    gap: 10px;
+    
+}
+.glo ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.ecwid{
+    color: rgb(148, 148, 196);
+    text-decoration: none;
+}
+hr{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
 
-
-
-
+.ecwid{
+    text-decoration: none;
+}
